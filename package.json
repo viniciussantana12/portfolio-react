@@ -1,17 +1,17 @@
 {
+  "homepage": "https://viniciussantana12.github.io/portfolio-react",
   "name": "portfolio-react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://viniciussantana12.github.io/portfolio-react",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "lint": "eslint .",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist -r https://github.com/viniciussantana12/portfolio-react.git"
-},
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist -r https://github.com/viniciussantana12/portfolio-react.git"
+  },
   "dependencies": {
     "@radix-ui/react-toast": "^1.2.11",
     "@tailwindcss/vite": "^4.1.5",
