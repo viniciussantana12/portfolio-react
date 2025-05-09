@@ -7,14 +7,16 @@ export const ThemeToggle = () => {
 
   useEffect(() => {
     const storedTheme = localStorage.getItem("theme");
-    if (storedTheme === "dark") {
-      setIsDarkMode(true);
-      document.documentElement.classList.add("dark");
-    } else {
-      localStorage.setItem("theme", "light");
-      setIsDarkMode(false);
-    }
-  }, []);
+    if (storedTheme === "dark" || (!storedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    document.documentElement.classList.add("dark");
+    setIsDarkMode(true);
+    localStorage.setItem("theme", "dark"); // salva para próximas visitas
+  } else {
+    document.documentElement.classList.remove("dark");
+    setIsDarkMode(false);
+    localStorage.setItem("theme", "light");
+  }
+}, []);
 
   const toggleTheme = () => {
     if (isDarkMode) {
