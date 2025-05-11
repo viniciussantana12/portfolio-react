@@ -7,7 +7,7 @@ const projects = [
     description: "Uma aplicação de Lista de Tarefas (To-do List) feita com React.js, permitindo adicionar, filtrar, ordenar, marcar e remover tarefas de forma simples e interativa.",
     image: "./projects/project1.png",
     tags: ["React", "JavaScript (ES6+)", "CSS3"],
-    demoUrl: "#",
+    demoUrl: "https://viniciussantana12.github.io/ToDo_list_react/",
     githubUrl: "https://github.com/viniciussantana12/ToDo_list_react",
   },
   {
@@ -16,19 +16,37 @@ const projects = [
     description:
       "Sistema CRUD de clientes com React e Chakra UI, incluindo persistência via Local Storage e interface responsiva.",
     image: "./projects/project2.png",
-    tags: ["React", "hakra UI"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "Chakra UI"],
+    demoUrl: "https://viniciussantana12.github.io/cadastro-clientes/",
+    githubUrl: "https://github.com/viniciussantana12/cadastro-clientes",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "API de Gerenciamento de Veículos",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "Uma API REST criada com Node.js e Express para gerenciar veículos. Permite operações de cadastro, listagem, atualização e remoção, com dados armazenados em memória e simulação de delays assíncronos.",
+    image: "./projects/project3.png",
+    tags: ["Node.js", "Express", "JavaScript (ES6+)" ],
+    githubUrl: "https://github.com/viniciussantana12/API_veiculos",
+  },
+   {
+    id: 4,
+    title: "Testes e Validações de Função de Consumo",
+    description:
+      "Projeto em Node.js que calcula quantos litros de combustível são necessários para um percurso, com base na distância em metros e no tipo de combustível. Validações rigorosas de entrada e testes unitários automatizados com Jest, incluindo relatório de cobertura.",
+    image: "./projects/project4.jpg",
+    tags: ["Node.js", "Jest", "JavaScript (ES6+)" ],
+    githubUrl: "https://github.com/viniciussantana12/testes_combustivel_nodejs",
+  },
+  {
+    id: 5,
+    title: "Cadastro de Lojas",
+    description:
+      "Formulário web para cadastro de lojas, com salvamento automático via Local Storage, envio de dados em JSON para uma API, feedback visual nos campos e interface simples e responsiva.",
+    image: "./projects/project5.png",
+    tags: ["JavaScript (ES6+)"],
+    demoUrl: "https://viniciussantana12.github.io/cadastro_lojas/",
+    githubUrl: "https://github.com/viniciussantana12/cadastro_lojas",
   },
   
 ];
