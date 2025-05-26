@@ -1,12 +1,29 @@
-# React + Vite
+# 💼 Meu Portfólio Pessoal - React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao repositório do meu portfólio pessoal! Este projeto foi desenvolvido para apresentar meus projetos, habilidades e informações de contato de uma forma moderna e interativa.
 
-Currently, two official plugins are available:
+**🔗 Link para o site:** [https://viniciussantana12.github.io/portfolio-react/](https://viniciussantana12.github.io/portfolio-react/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Funcionalidades Principais
 
-## Expanding the ESLint configuration
+* **Design Responsivo:** Totalmente adaptável a diferentes tamanhos de tela (desktop, tablets e mobile).
+* **Seções Dedicadas:**
+    * **Hero:** Apresentação inicial.
+    * **Sobre Mim:** Uma breve descrição sobre minha paixão por desenvolvimento e minhas aspirações.
+    * **Projetos:** Galeria dos meus principais trabalhos com links para demonstração (quando aplicável) e para o repositório no GitHub.
+    * **Skills:** Apresentação das minhas competências técnicas.
+    * **Contato:** Formulário e links diretos para minhas redes sociais e e-mail.
+* **Tema Dinâmico:** Alternância entre tema claro (Light Mode) e escuro (Dark Mode), com persistência da escolha do usuário.
+* **Animações Sutis:** Efeitos de hover, carregamento e um fundo estrelado animado para uma experiência de usuário mais agradável.
+* **Componentização:** Estrutura organizada em componentes React reutilizáveis.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Tecnologias Utilizadas
+
+* **Frontend:**
+    * [React.js](https://reactjs.org/)
+    * [JavaScript (ES6+)](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
+    * [CSS3](https://www.w3.org/Style/CSS/Overview.en.html)
+    * [Tailwind CSS](https://tailwindcss.com/) 
+* **Ferramentas de Desenvolvimento:**
+    * [Vite](https://vitejs.dev/) 
+    * [Git](https://git-scm.com/) & [GitHub](https://github.com) 
